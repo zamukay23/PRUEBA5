@@ -10,6 +10,6 @@ package pruebagit3;
  */
 public class Semblantes {
     public static void main(String[] args) {
-        System.out.println("Esto es un a prueba");
+        System.out.println("Esto es un a prueba2");
     }
 }
