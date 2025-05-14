@@ -12,6 +12,5 @@ public class Reyes_Martinez {
    public static void main(String[] args){
        System.out.println("alex");
        System.out.println("reyes");
-       System.out.println("hola");
    } 
 }
