@@ -11,5 +11,6 @@ public class Semblantes {
     public static void main(String[] args) {
         System.out.println(" Semblantes Anthony");
         System.out.println("Hola");
+        System.out.println("Esto es otra prueba ");
     }
 }
