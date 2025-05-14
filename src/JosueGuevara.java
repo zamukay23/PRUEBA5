@@ -10,6 +10,7 @@
 public class JosueGuevara {
     private String nombre="Josue";
     private String apellido="Guevara";
+    private String cedula="1850018928";
     public void imprimirNombres(){
         System.out.println(nombre);
         System.out.println(apellido);
