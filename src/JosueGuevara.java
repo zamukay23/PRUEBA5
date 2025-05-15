@@ -13,6 +13,7 @@ public class JosueGuevara {
     public void nomApe(){
         System.out.println(nombre);
         System.out.println(apellido);
-        System.out.println("Cambio");
+        System.out.println("UwU");
+        
     }
 }
