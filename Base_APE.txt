@@ -1,0 +1,36 @@
+-- Tabla de usuarios
+CREATE TABLE USUARIOS (
+    ID_USU VARCHAR(100) PRIMARY KEY,
+    USE_USU TEXT NOT NULL UNIQUE,          
+    PAS_USU TEXT NOT NULL,                 
+    CED_USU TEXT NOT NULL UNIQUE,          
+    NOM_USU TEXT NOT NULL,                
+    APE_USU TEXT NOT NULL                 
+);
+
+-- Tabla de eventos
+CREATE TABLE EVENTOS (
+    ID_EVE VARCHAR(100) PRIMARY KEY,
+    ID_USU VARCHAR(100) NOT NULL,               
+    TIT_EVE TEXT NOT NULL,                 
+    DES_EVE TEXT not null,                          
+    FEC_EVE DATE NOT NULL,                 
+    HOR_EVE TIME NOT NULL,                 
+    FOREIGN KEY (ID_USU) REFERENCES USUARIOS(ID_USU)
+);
+
+-- Tabla de recordatorios
+CREATE TABLE RECORDATORIOS (
+    ID_REC VARCHAR(100) PRIMARY KEY,
+    ID_EVE VARCHAR(100) NOT NULL,               
+    MIN_ANT_REC INTEGER DEFAULT 10,        
+    ACT_REC BOOLEAN DEFAULT 1,             
+    FOREIGN KEY (ID_EVE) REFERENCES EVENTOS(ID_EVE)
+);
+
+-- Tabla de estadísticas
+CREATE TABLE ESTADISTICAS_EVENTOS (
+    ID_EST INTEGER PRIMARY KEY AUTOINCREMENT,
+    FEC_EST DATE NOT NULL,                
+    TOT_EVE_EST INTEGER NOT NULL          
+);
