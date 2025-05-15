@@ -8,6 +8,6 @@ package Controladores;
  *
  * @author User
  */
-public class controlador {
+public class LoginControlador {
     
 }
