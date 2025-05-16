@@ -11,5 +11,4 @@ package Controladores;
 
 public class EventoControlador {
     
-
 }
