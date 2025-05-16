@@ -12,5 +12,6 @@ public class Semblantes {
     public static void main(String[] args) {
         System.out.println("Yo");
         System.out.println("Ahora si funca");
+        System.out.println("Que bien ajja ");
     }
 }
