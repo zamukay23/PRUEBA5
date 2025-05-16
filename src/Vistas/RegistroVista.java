@@ -2,17 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package Vistas;
 
 /**
  *
- * @author jonat
+ * @author User
  */
-public class JonathanOjeda {
-    String nombre="Jonathan";
-    String apellido="Ojeda";
+public class RegistroVista {
     
-    public void imprimir(){
-            System.out.println(nombre);
-            System.out.println(apellido);
-}
 }
